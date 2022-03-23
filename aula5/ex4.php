@@ -1,9 +1,9 @@
 <?php
-    $n1 = 7;
-    $n2 = 6;
+    $n1 = 2;
+    $n2 = 9;
     $n3 = 5;
 
-    if($n1 == $n2 and $n1 == $n3 and $n2 == $n3)
+    if($n1 == $n2 and $n1 == $n3 and $n2 == $n3) //Caso sejam iguais
     {
         echo $n1."<br>".$n2."<br>".$n3;
     }
