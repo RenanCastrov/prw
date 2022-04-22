@@ -3,6 +3,20 @@
     font-family: 'Lobster', cursive;
     color: beige;
 }
+#button
+{
+    width: 80px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-family: 'Lobster', cursive;
+    cursor: pointer;
+}
+#button:hover
+{
+    transition: 2s;
+    background-color: aquamarine;
+    color: indigo;
+}
 #formulario
 {
     text-align: center;
