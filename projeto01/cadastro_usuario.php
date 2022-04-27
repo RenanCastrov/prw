@@ -1,6 +1,6 @@
 <?php
 
-    include("conexao.php");
+    include('conexao.php');
 
     $nome_usuario = $_POST['nome_usuario'];
     $email_usuario = $_POST['email_usuario'];
@@ -15,7 +15,7 @@
     
     $result = mysqli_query($con, $sql);
 
-    if ($result)
+    if($result)
     {
         echo "Dados inseridos com sucesso";
     }
