@@ -20,6 +20,6 @@
     }
     else
     {
-        echo "Erro ao inserir no banco de dados: ".mysqli_error($con);
+        echo "Erro ao inserir no banco de dados meu caro: ".mysqli_error($con);
     }
 ?>
