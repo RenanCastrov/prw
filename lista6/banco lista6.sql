@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 create database lista6;
+=======
+>>>>>>> 0886217a7cae6020e55ca98586a9582645e861db
 
 use lista6;
 create table agenda(

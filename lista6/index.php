@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
     <html lang="pt-br">
         <head>
             <meta charset="UTF-8">
@@ -16,3 +17,14 @@
             </div>
         </body>
     </html>
+=======
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Agenda</title>
+</head>
+<body>
+    
+</body>
+</html>
+>>>>>>> 0886217a7cae6020e55ca98586a9582645e861db
