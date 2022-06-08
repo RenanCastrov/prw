@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <title>Cadastro de Agenda</title>
+            <link rel="stylesheet" href="cadastroag.css">
+            <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+        </head>
+        <body>
+            <form method="post" action="cadastro_agenda.php" id="formulario" enctype='multipart/form-data'>
+                <h2 class="titulos">Cadastro de Agenda</h2><br>
+                <label for="nome" class="titulos">Nome:</label>
+                <input type="text" name="nome" size="50"><br><br>
+                <label for="apelido" class="titulos">Apelido:</label>
+                <input type="text" name="apelido" size="40"><br><br>
+                <label for="email" class="titulos">Email:</label>
+                <input type="text" name="email" size="70"><br><br>
+                <label for="telefone" class="titulos">Telefone:</label>
+                <input type="text" name="telefone" size="15"><br><br>
+                <label for="celular" class="titulos">Celular:</label>
+                <input type="text" name="celular" size="15"><br><br>
+                <label for="estado" class="titulos">Estado:</label>
+                <input type="text" name="estado" size="2"><br><br>
+                <label for="cidade" class="titulos">Cidade:</label>
+                <input type="text" name="cidade" size="50"><br><br>
+                <label for="bairro" class="titulos">Bairro:</label>
+                <input type="text" name="bairro" size="50"><br><br>
+                <label for="endereco" class="titulos">Endereço:</label>
+                <input type="text" name="endereco" size="70"><br><br>
+                <label for="foto" class="titulos">Seleção de foto: </label>
+                <input type="file" id="foto" name="foto" accept="image/*" />
+                <input type="submit" name="Enviar" id="button">
+            </form>
+        </body>
+    </html>
