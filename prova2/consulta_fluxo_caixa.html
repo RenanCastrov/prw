@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <title>Cadastro de Fluxo de Caixa</title>
+            <link rel="stylesheet" href="cadastroag.css">
+            <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+        </head>
+        <body>
+            <form method="post" action="consulta_fluxo_caixa.php" id="formulario">
+                <label for="consulta" class="titulos">Tipo:</label>
+                <input type="radio" name="consulta" value="saldo"> Saldo Total
+                <input type="radio" name="consulta" value="saida"> Total Saídas
+                <input type="radio" name="consulta" value="entrada"> Total Entradas<br><br>
+                <input type="submit" name="Enviar" id="button">
+            </form>
+        </body>
+    </html>
