@@ -3,7 +3,7 @@
         <head>
             <meta charset="UTF-8">
             <title>Agenda</title>
-            <link rel="stylesheet" href="principal.css">
+            <link rel="stylesheet" href="..\css\bootstrap.css">
             <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
         </head>
         <body>
